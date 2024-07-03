@@ -4,7 +4,7 @@ import Detail from '../views/pages/detail';
 import TentangKami from '../views/pages/tentang-kami'; 
 
 const routes = {
-  '/': Beranda, // default page
+  '/': Beranda,
   '/beranda': Beranda,
   '/wisata': Wisata,
   '/tentang-kami':TentangKami,

@@ -18,24 +18,3 @@ const Detail = {
 };
 
 export default Detail;
-
-
-// import UrlParser from "../../routes/url-parser";
-// import TheBetatutobaDbSource from "../../data/thebetatutoba-source";
-
-// const Detail = {
-//     async render() {
-//       return `
-//         <h2>Detail Page</h2>
-//       `;
-//     },
-   
-//     async afterRender() {
-//       const url = UrlParser.parseActiveUrlWithoutCombiner();
-//       const betatutoba = await TheBetatutobaDbSource.detailBetatutoba(url.id);
-//       console.log(betatutoba);    
-//     },
-//   };
-   
-//   export default Detail;
-  

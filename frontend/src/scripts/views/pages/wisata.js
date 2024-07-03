@@ -26,30 +26,3 @@ const Wisata = {
 };
 
 export default Wisata;
-
-// batas
-
-// import { wisata } from "../../../../../backend/src/controllers";
-// import TheBetatutobaDbSource from "../../data/thebetatutoba-source";
-
-// const Wisata = {
-//     async render() {
-//       return `
-//         <div class="content">
-//         <h2 class="content__heading"></h2>
-//         <div id="wisata" class="wisata-item">
-//         </div>
-//       </div>
-//       `;
-//     },
-   
-//     async afterRender() {
-//       const betatutoba = await TheBetatutobaDbSource.WisataBetatutoba();
-//       const wisatatList = document.querySelector('.wisata-item');
-//     wisata.forEach((wisata) => {
-//       wisataList.innerHTML += createWisataItemTemplate(wisata);
-//     });
-//     },
-//   };
-   
-//   export default Wisata;

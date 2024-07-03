@@ -8,13 +8,3 @@ const pool = mysql.createPool({
 });
 
 module.exports = pool;
-
-
-
-// module.exports = {
-//     multipleStatements  : true,
-//     host                : 'localhost',
-//     user                : 'root',
-//     password            : '',
-//     database            : 'betatutoba'
-// };
